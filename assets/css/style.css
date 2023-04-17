@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #000;
+}
+.input_form {
+  border: 1px solid #3d3d3d94;
+  /* padding: 5px 15px; */
+  padding: 5px 15px 5px 40px;
+}
+.main_head {
+  font-weight: 800;
+  text-align: right;
+}
+
+.navbar_ {
+  list-style: none;
+}
+.navbar_ li a {
+  text-decoration: none;
+  color: #00000094;
+  font-size: 17px;
+  padding: 10px;
+}
+.navbar_ li a.active{
+  color: #f79918 !important;
+}
+.navbar_ li a:hover {
+  border-radius: 5px;
+  color: #f79918;
+}
+.photo img {
+  width: 50px;
+  border-radius: 50%;
+}
+.author {
+  font-size: 16px;
+  font-weight: 700;
+}
+.author-head{
+  font-weight: 700;
+  font-size: 23px;
+}
+.author-text {
+  color: #888888;
+}
+.bottom_text{
+  margin-bottom: 100px;
+}
+.picture img {
+  border-radius: 10px;
+}
+.post_entry{
+  margin-bottom: -10px;
+}
+.post_entry p{
+  font-weight: 700;
+ 
+}
+.post_entry span{
+  color: #999;
+}
+.fa-search{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: #888888;
+}
+/* trending section */
+.trending img{
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+}
+.author-trending{
+  font-size: 40px;
+  font-weight: 700;
+  width: 620px;
+}
+.trending_head{
+  font-size: 38px;
+  text-align: center;
+  font-weight: 700;
+}
+.carousel-indicators button{
+  background-color: #00000094 !important;
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 50%;
+  margin-bottom: -15px !important;
+}
+.carousel-indicators button.active{
+  background-color: #f79918 !important;
+}
+/* card section */
+.card{
+  border: none;
+}
+.card img{
+  border-radius: 10px;
+  height: auto;
+}
+/* subscribe section */
+#subscribe{
+  background-color: rgb(243, 246, 246);
+}
+.subs_button{
+  padding: 10px;
+  width: 100%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  background-color: #f79918;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+}
+.subs_button:hover{
+  background-color: #fff;
+  color: #f79918;
+  border: none;
+  box-shadow: 8px 8px 10px rgb(165, 159, 159);
+}
+.sports{
+  font-weight: 700;
+  font-size: 27px;
+}
+/* footer section */
+.icon_foot a i{
+  width: 39px;
+  text-align: center;
+}
+.s_media{
+  padding: 13px;
+  background-color: #c5c5c5;
+  border-radius: 15px;
+  color: #000;
+}
+.s_media:hover{
+  color: #fff;
+  background-color: #f79918;
+}
+.bottom{
+  border-bottom: 4px solid rgba(247, 153, 24, 0.1);
+  transition: all 0.5s;
+}
+.bottom:hover{
+  border-bottom: 4px solid #f79918;
+  color: #000;
+}
